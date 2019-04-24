@@ -32,11 +32,9 @@ body{
   margin:0;
   padding: 0;
 }
-p{
-  font-size: 1.3em;
-}
+
 .container{
-  min-width: 333px;
+  min-width: 320px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -117,13 +115,19 @@ figcaption.skills-caption {
     .profile-image-container {
       width: 25%;
     }
+    /* .main-image {
+      border-radius: 50%;
+  } */
+    
       .profile-section {
           display: flex;
           justify-content: space-around;
           align-items: center;
       }
     .profile-summary-container {
-        width: 60%;
+      margin-right: 5%;
+      width: 65%;
+      margin-left: 5%;
       }
 
       .work-section {
@@ -136,12 +140,13 @@ figcaption.skills-caption {
       }
       .project{
         width:45%;
+        margin-bottom: 5%;
       }
  }
 
  @media(min-width:900px){
    .container{
-     width: 900px;
+     max-width: 1024px;
      margin-left: auto;
      margin-right: auto;
    }
