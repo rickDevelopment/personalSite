@@ -1,0 +1,18 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font: 100% Arial, Helvetica, sans-serif;
+  color: #a05454;
+}
+
+/*# sourceMappingURL=styles1.css.map */
