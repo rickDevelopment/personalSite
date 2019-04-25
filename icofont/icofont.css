@@ -2,7 +2,7 @@
 * @package IcoFont 
 * @version 1.0.1 
 * @author IcoFont https://icofont.com 
-* @copyright Copyright (c) 2015 - 2018 IcoFont 
+* @copyright Copyright (c) 2015 - 2019 IcoFont 
 * @license - https://icofont.com/license/
 */
 
@@ -33,114 +33,19 @@ url("./fonts/icofont.woff") format("woff");
   -webkit-font-smoothing: antialiased;
 }
 
-.icofont-linkedin:before
-{
-  content: "\ed4d";
-}
-
-.icofont-livejournal:before
-{
-  content: "\ed50";
-}
-
-.icofont-address-book:before
-{
-  content: "\eea1";
-}
-
-.icofont-code:before
-{
-  content: "\eeea";
-}
-
-.icofont-ebook:before
-{
-  content: "\ef0f";
-}
-
-.icofont-email:before
-{
-  content: "\ef12";
-}
-
-.icofont-home:before
-{
-  content: "\ef47";
-}
-
-.icofont-institution:before
-{
-  content: "\ef51";
-}
-
-.icofont-light-bulb:before
-{
-  content: "\ef6b";
-}
-
-.icofont-phone:before
-{
-  content: "\efbb";
-}
-
-.icofont-send-mail:before
-{
-  content: "\efdf";
-}
-
-.icofont-tasks-alt:before
-{
-  content: "\f006";
-}
-
-.icofont-unique-idea:before
-{
-  content: "\f019";
-}
-
-.icofont-ui-note:before
-{
-  content: "\ec6f";
-}
-
 .icofont-ui-message:before
 {
   content: "\ec67";
 }
 
-.icofont-ui-theme:before
+.icofont-github:before
 {
-  content: "\ec88";
+  content: "\ed3e";
 }
 
-.icofont-company:before
+.icofont-linkedin:before
 {
-  content: "\e96c";
-}
-
-.icofont-book-alt:before
-{
-  content: "\ead1";
-}
-
-.icofont-brainstorming:before
-{
-  content: "\ead3";
-}
-
-.icofont-certificate-alt-1:before
-{
-  content: "\ead4";
-}
-
-.icofont-graduate-alt:before
-{
-  content: "\eadb";
-}
-
-.icofont-ui-touch-phone:before
-{
-  content: "\ec8a";
+  content: "\ed4d";
 }
 
 .icofont-code-alt:before
@@ -148,59 +53,24 @@ url("./fonts/icofont.woff") format("woff");
   content: "\ede6";
 }
 
-.icofont-iphone:before
+.icofont-brainstorming:before
 {
-  content: "\ea3b";
+  content: "\ead3";
 }
 
-.icofont-ui-cell-phone:before
+.icofont-graduate-alt:before
 {
-  content: "\ec49";
+  content: "\eadb";
 }
 
-.icofont-smart-phone:before
+.icofont-company:before
 {
-  content: "\efec";
+  content: "\e96c";
 }
 
-.icofont-worker:before
+.icofont-phone:before
 {
-  content: "\e9c2";
-}
-
-.icofont-network:before
-{
-  content: "\efa5";
-}
-
-.icofont-school-bag:before
-{
-  content: "\eaec";
-}
-
-.icofont-education:before
-{
-  content: "\ead7";
-}
-
-.icofont-certificate:before
-{
-  content: "\ead6";
-}
-
-.icofont-certificate-alt-2:before
-{
-  content: "\ead5";
-}
-
-.icofont-web:before
-{
-  content: "\f028";
-}
-
-.icofont-dashboard-web:before
-{
-  content: "\eef9";
+  content: "\efbb";
 }
 
 .icofont-xs
