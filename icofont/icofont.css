@@ -33,19 +33,9 @@ url("./fonts/icofont.woff") format("woff");
   -webkit-font-smoothing: antialiased;
 }
 
-.icofont-ui-message:before
+.icofont-navigation-menu:before
 {
-  content: "\ec67";
-}
-
-.icofont-github:before
-{
-  content: "\ed3e";
-}
-
-.icofont-linkedin:before
-{
-  content: "\ed4d";
+  content: "\efa2";
 }
 
 .icofont-code-alt:before
@@ -53,14 +43,39 @@ url("./fonts/icofont.woff") format("woff");
   content: "\ede6";
 }
 
+.icofont-graduate-alt:before
+{
+  content: "\eadb";
+}
+
 .icofont-brainstorming:before
 {
   content: "\ead3";
 }
 
-.icofont-graduate-alt:before
+.icofont-linkedin:before
 {
-  content: "\eadb";
+  content: "\ed4d";
+}
+
+.icofont-phone:before
+{
+  content: "\efbb";
+}
+
+.icofont-github:before
+{
+  content: "\ed3e";
+}
+
+.icofont-ui-message:before
+{
+  content: "\ec67";
+}
+
+.icofont-close:before
+{
+  content: "\eee4";
 }
 
 .icofont-company:before
@@ -68,9 +83,59 @@ url("./fonts/icofont.woff") format("woff");
   content: "\e96c";
 }
 
-.icofont-phone:before
+.icofont-arrow-left:before
 {
-  content: "\efbb";
+  content: "\ea5c";
+}
+
+.icofont-arrow-right:before
+{
+  content: "\ea5d";
+}
+
+.icofont-long-arrow-up:before
+{
+  content: "\ea95";
+}
+
+.icofont-calendar:before
+{
+  content: "\eecd";
+}
+
+.icofont-error:before
+{
+  content: "\ef16";
+}
+
+.icofont-location-pin:before
+{
+  content: "\ef79";
+}
+
+.icofont-location-arrow:before
+{
+  content: "\ef78";
+}
+
+.icofont-opposite:before
+{
+  content: "\efae";
+}
+
+.icofont-spinner:before
+{
+  content: "\effa";
+}
+
+.icofont-worker:before
+{
+  content: "\e9c2";
+}
+
+.icofont-network:before
+{
+  content: "\efa5";
 }
 
 .icofont-xs
