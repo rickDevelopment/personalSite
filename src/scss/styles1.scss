@@ -1,0 +1,9 @@
+@import 'reset';
+
+$font-stack: Arial, Helvetica, sans-serif;
+$primary-color:rgb(160, 84, 84);
+
+body{
+  font: 100% $font-stack;
+  color:$primary-color;
+}
