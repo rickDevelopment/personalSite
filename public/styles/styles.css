@@ -3,7 +3,7 @@
 a {
   text-decoration: none;
 }
-a .nav-item{
+ .nav-item a{
   color: #fff;
 }
 
@@ -144,5 +144,8 @@ figcaption.skills-caption {
      width: 900px;
      margin-left: auto;
      margin-right: auto;
+   }
+   .nav-menu{
+     display: none;
    }
  }
