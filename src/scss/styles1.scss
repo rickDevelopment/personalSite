@@ -3,7 +3,151 @@
 $font-stack: Arial, Helvetica, sans-serif;
 $primary-color:rgb(160, 84, 84);
 
-body{
-  font: 100% $font-stack;
-  color:$primary-color;
+/* * { border: 1px solid red; } */
+/* ******** Icon Styles **************/
+/* .icon{
+  font-size: 72px;
+  border: solid yellow;
+}
+ */
+ a {
+	text-decoration: none;
+	.icon {
+		color: #333;
+	}
+}
+.nav-item {
+	a {
+		color: #fff;
+	}
+}
+.skills-caption {
+	color: #333;
+}
+li {
+	list-style: none;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+img {
+	max-width: 100%;
+}
+embed {
+	max-width: 100%;
+}
+object {
+	max-width: 100%;
+}
+video {
+	max-width: 100%;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	line-height: 1.4;
+	background-color: #fff;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+p {
+	font-size: 1em;
+}
+.container {
+	min-width: 333px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+header {
+	width: 100%;
+}
+.nav-bar {
+	width: 100%;
+	background-color: #333;
+	color: #fff;
+	font-size: 1.3em;
+	font-weight: 400;
+}
+ul.nav-list {
+	display: flex;
+	justify-content: space-around;
+	margin: 2px;
+	padding: 10px;
+}
+.heading {
+	text-align: center;
+}
+.main-heading {
+	font-size: 2.5em;
+	margin-bottom: 5px;
+}
+.sub-heading {
+	margin-top: 5px;
+	font-size: 1.5em;
+}
+main.main-content {
+	padding: 10px;
+}
+.profile-section {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.profile-image-container {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main-image {
+	width: 100%;
+	max-width: 100%;
+	border-radius: 20%;
+}
+.project-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+figcaption.skills-caption {
+	font-weight: bold;
+	margin-top: 10px;
+}
+.footer-list {
+	display: flex;
+}
+@media min-width:650px) {
+	.profile-image-container {
+		width: 25%;
+	}
+	.profile-section {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.profile-summary-container {
+		width: 60%;
+	}
+	.work-section {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: baseline;
+		margin-top: 10%;
+		margin-bottom: 5%;
+	}
+	.project {
+		width: 45%;
+	}
+}
+@media min-width:900px) {
+	.container {
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nav-menu {
+		display: none;
+	}
 }
