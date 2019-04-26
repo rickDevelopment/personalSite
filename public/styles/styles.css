@@ -103,8 +103,19 @@ figcaption.skills-caption {
   font-weight: bold;
   margin-top: 10px;
 }
+/****************FOOTER Section *****************/
+.footer {
+  width: 100%;
+}
+.footer-nav {
+  padding: 20px;
+}
 .footer-list{
   display: flex;
+  justify-content:center;
+}
+.footer-nav-item {
+  width: 10%;
 }
 /* .icon{
   font-size: 72px;
